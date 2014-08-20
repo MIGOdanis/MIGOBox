@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/faBackColor"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="25dip" 
+		android:layout_marginLeft="10dip" 
+		android:layout_marginTop="10dip" 
+		android:layout_marginRight="10dip" 
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/border"
+        android:orientation="vertical"
+        android:padding="10dip"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cihybborder"
+            
+        >
+
+            <ImageView
+                android:id="@+id/cicion"
+                android:layout_width="35px"
+                android:layout_height="45px"
+                android:src="@drawable/cicion" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/textColor"
+                android:textSize="45px" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/telLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                
+                android:id="@+id/telTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="傳真" />
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/faxLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                android:id="@+id/faxTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="電話" />
+
+            <TextView
+                android:id="@+id/fax"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout>        
+        
+        <LinearLayout
+            android:id="@+id/addressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                android:id="@+id/addressTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="地址" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout>        
+
+        <LinearLayout
+            android:id="@+id/oetimeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                android:id="@+id/oetimeTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="營業時間" />
+
+            <TextView
+                android:id="@+id/oetime"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout>          
+       
+        <LinearLayout
+            android:id="@+id/closedayLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                android:id="@+id/closedayTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="營業時間" />
+
+            <TextView
+                android:id="@+id/closeday"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout>          
+
+		<LinearLayout
+            android:id="@+id/webLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                android:id="@+id/webTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="官方網站" />
+
+            <TextView
+                android:id="@+id/web"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout> 
+        
+		<LinearLayout
+            android:id="@+id/fbpageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:visibility="gone"
+         >
+
+            <TextView
+                android:id="@+id/fbpageTitle"
+                android:layout_width="180px"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="官方粉絲團" />
+
+            <TextView
+                android:id="@+id/fbpage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="30px"
+                android:text="TextView" />
+
+        </LinearLayout>
+		<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+			<LinearLayout
+	            android:id="@+id/profileLayout"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="5dip"
+	            android:visibility="gone"
+	         >
+	         <TextView
+	             android:id="@+id/profile"
+	             android:layout_width="fill_parent"
+	             android:layout_height="wrap_content"
+	             android:textColor="@color/textColor"
+	             android:textSize="30px"
+	          />
+	        </LinearLayout>        
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

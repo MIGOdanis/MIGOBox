@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="KurumapBackColor">#FEE36E</color>
+    <color name="faBackColor">#FAFAFA</color>
+    <color name="ffBackColor">#FFFFFF</color>
+    <color name="textColor">#545454</color>
+    
+    
+</resources>
